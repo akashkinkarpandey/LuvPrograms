@@ -1,0 +1,12 @@
+.vertex may or may not be connected by edge in graph
+.tree is bidirectional or undirected graph with no cycle
+.tree has n-1 edges for n nodes
+.graph may have many components not connected to each other
+.bidirectional graphs are undirected
+.unidirectional graphs are directed
+.graphs with no cycle is acyclic
+.strongly connected components are components in which we can always go 
+  from one vertex to another vertex
+.full graph is forest
+.LCA IS LOWEST COMMON ANCESTOR
+

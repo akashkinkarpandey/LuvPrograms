@@ -1,0 +1,18 @@
+Representation:-
+
+Adjacency List(array of vectors,vector of vectors)
+Adjacency Matrix(2-D arrays)
+-------------------------
+
+Traversal:-
+BFS,DFS(AlgoVisualizer.net)
+-------------------------
+Algorithms:-
+
+.Djikstra
+.Bellman Ford
+--------------------------
+.Disjoint Set union
+.Minimum Spanning tree
+.Directed Cyclic graph
+.Topological Sort

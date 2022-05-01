@@ -1,0 +1,41 @@
+1. In cp mostly the vertices are 1 based. 
+2. Most of the question are done by DFS 
+3. You can also use the vector of vector as an alternative.
+
+Adjacency Matrix
+----------------------
+O(N^2) space complexity(disadvantage)
+N<=10^3
+N!=10^5
+
+Adjacency List
+-------------------
+O(Vertices+Edges) space complexity
+N is number of vertices
+N=10^5,E<=10^7
+//approx number of edges are vertex^2
+
+
+//check if i,j connected ?
+//check for weights of i,j =?
+
+-->in Matrix
+if(graph1[i][j])
+{
+    //connected
+    //O(1)  (This is advantage of Adjacency Matrix)
+}
+
+
+-->in List
+for(int child: graph2[i])
+{
+    if(child==j)
+    //connected
+    //O(N)   (This is the dis-advantage of Adjacency List)
+}
+
+
+
+..matrix with be (vertices X vertices)
+..matrix[i][j]=1 will say that vertex i,j is connected
