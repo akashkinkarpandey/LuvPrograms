@@ -25,8 +25,8 @@ void Union(int a, int b)
     {  //union by size
         if(size[a]<size[b])
             swap(a,b);//big tree will lie on left always for this code
-        parent[b] = a;
-        size[a]+=size[b];
+        parent[b] = a;//parent of small tree is parent of big tree
+        size[a]+=size[b];//union by size
     }
 }
 //Amortized time complexity
